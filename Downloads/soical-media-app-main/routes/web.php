@@ -43,4 +43,12 @@ Route::get('/price', function () {
 Route::get('/dashbord', function () {
     return view('/dashbord');
 });
-
+Route::get('/user_post', function () {
+    return view('/user_post');
+});
+Route::get('/schdule', function () {
+    return view('/schdule');
+});
+Route::get('/analysis', function () {
+    return view('/analysis');
+});
